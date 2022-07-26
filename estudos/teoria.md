@@ -9,3 +9,22 @@
 - Sintaxe Básica
 
     ``` $(selector).action() ```
+    
+- Documento "carregado"
+
+    - Jeito 1:
+
+        ~~~javascript
+        $(document).ready(function () {
+            // jQuery methods go here...
+        });
+        ~~~
+
+    - Jeito 2:
+
+        ~~~javascript
+        $(function () {
+            // jQuery methods go here...
+        });
+        ~~~
+   
