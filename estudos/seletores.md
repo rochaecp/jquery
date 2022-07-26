@@ -29,3 +29,23 @@
         });
     });
     ~~~
+  
+  
+## Exemplos
+
+- Ocultando TAG e Classe
+
+    ~~~html
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                $(".minhaClasse").hide();
+            });
+        });
+    </script>
+
+    <button>Click</button> <br />
+    <p class="minhaClasse">Meu texto</p>
+    ~~~    
+    
+    
