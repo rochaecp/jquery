@@ -1,4 +1,4 @@
-# JQuery - Olá Mundo
+# JQuery 
 
 ~~~html
 <script>
