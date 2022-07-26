@@ -1,5 +1,21 @@
 # JQuery - Seletores
 
+> - Alguns seletores
+>   - ``` $("*") ```
+>   - ``` $(this) ```
+>   - ``` $("p.minhaClasse") ```
+>   - ``` $("p:first") ```
+>   - ``` $("ul li:first") ```
+>   - ``` $("ul li:first-child") ```
+>   - ``` $("[href]") ```
+>   - ``` $("a[target='_blank']") ```
+>   - ``` $("a[target!='_blank']") ```
+>   - ``` $(":button") ```
+>   - ``` $("tr:even") ```
+>   - ``` $("tr:odd") ```
+
+## Exemplos
+
 - TAG
 
     ~~~html
@@ -30,9 +46,6 @@
     });
     ~~~
   
-  
-## Exemplos
-
 - Ocultando TAG e Classe
 
     ~~~html
