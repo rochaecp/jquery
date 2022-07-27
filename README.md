@@ -4,3 +4,4 @@
 1. [Teoria](estudos/teoria.md)
 1. [Seletores](estudos/seletores.md)
 1. [Eventos](estudos/eventos.md)
+1. [Efeitos](estudos/efeitos.md)
