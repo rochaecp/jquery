@@ -1,18 +1,18 @@
 # JQuery - Seletores
 
 > - Alguns seletores
->   - ``` $("*") ```
->   - ``` $(this) ```
+>   - ``` $("*") ``` - todos elementos
+>   - ``` $(this) ``` 
 >   - ``` $("p.minhaClasse") ```
 >   - ``` $("p:first") ```
->   - ``` $("ul li:first") ```
->   - ``` $("ul li:first-child") ```
->   - ``` $("[href]") ```
->   - ``` $("a[target='_blank']") ```
->   - ``` $("a[target!='_blank']") ```
->   - ``` $(":button") ```
->   - ``` $("tr:even") ```
->   - ``` $("tr:odd") ```
+>   - ``` $("ul li:first") ``` - primeiro li da primeira ul
+>   - ``` $("ul li:first-child") ``` - primeiro li de todas ul
+>   - ``` $("[href]") ``` - todos com atributo href
+>   - ``` $("a[target='_blank']") ``` - todos <a> com atributo target igual a _blank
+>   - ``` $("a[target!='_blank']") ``` 
+>   - ``` $(":button") ``` - todos button e input type="button"
+>   - ``` $("tr:even") ``` - todos tr pares
+>   - ``` $("tr:odd") ``` - todos tr impares
 
 ## Exemplos
 
