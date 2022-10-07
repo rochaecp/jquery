@@ -18,7 +18,7 @@
 
 - TAG
 
-    ~~~html
+    ~~~javascript
     $(document).ready(function () {
         $("p").click(function () {
             $(this).hide();
@@ -28,7 +28,7 @@
 
 - Classe
 
-    ~~~html
+    ~~~javascript
     $(document).ready(function () {
         $(".myClass").click(function () {
             $(this).hide();
@@ -38,7 +38,7 @@
 
 - Id
 
-    ~~~html
+    ~~~javascript
     $(document).ready(function () {
         $("#myId").click(function () {
             $(this).hide();
