@@ -46,7 +46,7 @@
     });
     ~~~
   
-- Ocultando TAG e Classe
+- Exemplo mesclando TAG e Classe
 
     ~~~html
     <script>
