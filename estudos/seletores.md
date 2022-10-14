@@ -1,64 +1,61 @@
 # JQuery - Seletores
 
-> - Alguns seletores
->   - ``` $("*") ``` - todos elementos
->   - ``` $(this) ``` 
->   - ``` $("p.minhaClasse") ```
->   - ``` $("p:first") ```
->   - ``` $("ul li:first") ``` - primeiro li da primeira ul
->   - ``` $("ul li:first-child") ``` - primeiro li de todas ul
->   - ``` $("[href]") ``` - todos com atributo href
->   - ``` $("a[target='_blank']") ``` - todos <a> com atributo target igual a _blank
->   - ``` $("a[target!='_blank']") ``` 
->   - ``` $(":button") ``` - todos button e input type="button"
->   - ``` $("tr:even") ``` - todos tr pares
->   - ``` $("tr:odd") ``` - todos tr impares
+- ``` $("*") ``` - todos elementos
+- ``` $(this) ``` 
+- ``` $("p.minhaClasse") ```
+- ``` $("p:first") ```
+- ``` $("ul li:first") ``` - primeiro li da primeira ul
+- ``` $("ul li:first-child") ``` - primeiro li de todas ul
+- ``` $("[href]") ``` - todos com atributo href
+- ``` $("a[target='_blank']") ``` - todos <a> com atributo target igual a _blank
+- ``` $("a[target!='_blank']") ``` 
+- ``` $(":button") ``` - todos button e input type="button"
+- ``` $("tr:even") ``` - todos tr pares
+- ``` $("tr:odd") ``` - todos tr impares
 
-## Exemplos
+## TAG
 
-- TAG
-
-    ~~~javascript
-    $(document).ready(function () {
-        $("p").click(function () {
-            $(this).hide();
-        });
+~~~javascript
+$(document).ready(function () {
+    $("p").click(function () {
+        $(this).hide();
     });
-    ~~~
+});
+~~~
 
-- Classe
+## Classe
 
-    ~~~javascript
-    $(document).ready(function () {
-        $(".myClass").click(function () {
-            $(this).hide();
-        });
+~~~javascript
+$(document).ready(function () {
+    $(".myClass").click(function () {
+        $(this).hide();
     });
-    ~~~ 
+});
+~~~ 
 
-- Id
+## Id
 
-    ~~~javascript
-    $(document).ready(function () {
-        $("#myId").click(function () {
-            $(this).hide();
-        });
+~~~javascript
+$(document).ready(function () {
+    $("#myId").click(function () {
+        $(this).hide();
     });
-    ~~~
+});
+~~~
   
-- Exemplo mesclando TAG e Classe
+## TAG e Classe
 
-    ~~~html
-    <script>
-        $(document).ready(function () {
-            $("button").click(function () {
-                $(".minhaClasse").hide();
-            });
+~~~html
+<script>
+    $(document).ready(function () {
+        $("button").click(function () {
+            $(".minhaClasse").hide();
         });
-    </script>
+    });
+</script>
 
-    <button>Click</button> <br />
-    <p class="minhaClasse">Meu texto</p>
-    ~~~    
+<button>Click</button> <br />
+<p class="minhaClasse">Meu texto</p>
+~~~    
     
     
