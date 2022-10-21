@@ -4,7 +4,7 @@
 
     $(selector).hide(speed,callback);
     $(selector).show(speed,callback);
-    
+  
 ~~~javascript
 $(document).ready(function () {
     $('#esconder').click(function () {
@@ -16,6 +16,19 @@ $(document).ready(function () {
     });
 });
 ~~~
+
+## Parâmetros aceitos para hide() e show()
+
+- slow
+- fast
+- tempo em milissegundos
+
+~~~javascript
+$("button").click(function(){
+    $("p").hide(1000);
+});
+~~~
+
     
 ## Exemplo
 
