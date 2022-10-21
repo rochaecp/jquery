@@ -1,0 +1,56 @@
+# JQuery - Hide e Show
+
+## Sintaxe
+
+    $(selector).hide(speed,callback);
+    $(selector).show(speed,callback);
+    
+~~~javascript
+$(document).ready(function () {
+    $('#esconder').click(function () {
+        $('p').hide();
+    });
+
+    $('#exibir').click(function () {
+        $('p').show();
+    });
+});
+~~~
+    
+## Exemplo
+
+~~~html
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<style>
+    body {
+        background-color: #282525;
+        color: white;
+    }
+</style>
+<body>
+
+	<button id="esconder">Esconder</button>
+    <button id="exibir">Exibir</button>
+
+    <p>Texto</p>
+
+    <script>
+
+        $(document).ready(function () {
+            $('#esconder').click(function () {
+                $('p').hide();
+            });
+
+            $('#exibir').click(function () {
+                $('p').show();
+            });
+        });
+		
+    </script>
+
+</body>
+</html>
+~~~
