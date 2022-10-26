@@ -1,11 +1,14 @@
 # JQuery
 
+## Úteis
+
+- [Template](estudos/template.md)
+
 ## Introdução
 
 1. [Sobre o JQuery](estudos/about.md)
 1. [Inserindo o JQuery em uma página HTML](estudos/inserindo.md)
 1. [Sintaxe Báxica](estudos/sintaxe-basica.md)
-1. [Template](estudos/template.md)
 
 ## Seletores
 
