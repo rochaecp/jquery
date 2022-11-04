@@ -2,9 +2,13 @@
 
 ## Sintaxe
 
-    $(selector).hide(speed,callback);
-    $(selector).show(speed,callback);
-  
+~~~javascript
+$(selector).hide(speed,callback);
+$(selector).show(speed,callback);
+~~~
+
+Ex.:
+
 ~~~javascript
 $(document).ready(function () {
     $('#esconder').click(function () {
