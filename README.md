@@ -21,3 +21,4 @@
 ## Efeitos
 
 1. [Hide e Show](estudos/hide-show.md)
+1. [Toggle](estudos/toggle.md)
